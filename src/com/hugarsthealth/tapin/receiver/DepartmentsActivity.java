@@ -1,4 +1,4 @@
-package se761.bestgroup.vsmreceiver;
+package com.hugarsthealth.tapin.receiver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +14,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONException;
+
+import se761.bestgroup.vsmreceiver.R;
 
 import android.app.ListActivity;
 import android.content.Intent;

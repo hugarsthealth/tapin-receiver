@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="se761.bestgroup.vsmreceiver.LogActivity"
+            android:name="com.hugarsthealth.tapin.receiver.LogActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
                 <data android:mimeType="application/se761.bestgroup.vsmreceiver" />
             </intent-filter>
         </activity>
-        <activity android:name="se761.bestgroup.vsmreceiver.DepartmentsActivity" >
+        <activity android:name="com.hugarsthealth.tapin.receiver.DepartmentsActivity" >
         </activity>
     </application>
 
