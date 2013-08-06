@@ -8,9 +8,9 @@
     <string name="title_activity_departments">DepartmentsActivity</string>
 	
     <!-- End points -->
-    <string name="departments_endpoint">http://vsm.herokuapp.com/departments</string>
-    <string name="patients_endpoint">http://vsm.herokuapp.com/patients</string>
-    <string name="login_endpoint">http://vsm.herokuapp.com/login</string>
+    <string name="departments_endpoint">http://tapin.herokuapp.com/departments</string>
+    <string name="patients_endpoint">http://tapin.herokuapp.com/patients</string>
+    <string name="login_endpoint">http://tapin.herokuapp.com/login</string>
     <!-- JSON Keys -->
     <string name="department">department</string>
     <string name="departments">departments</string>
