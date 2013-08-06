@@ -153,7 +153,7 @@ public class LogActivity extends Activity {
 			String patientString = null;
 			try {
 				final JSONObject j = new JSONObject(params[0]);
-				j.getJSONObject("vitalinfo").put("location", "Starship Childrens' Hospital");
+				j.getJSONObject("checkin").put("location", "Starship Childrens' Hospital");
 				patientString = j.toString();
 				Log.d("json", patientString);
 			} catch (final IndexOutOfBoundsException e) {
@@ -165,6 +165,7 @@ public class LogActivity extends Activity {
 			}
 
 			try {
+				Log.v("oriontag", patientString);
 				patientSE = new StringEntity(patientString);
 			} catch (final UnsupportedEncodingException e) {
 				e.printStackTrace();

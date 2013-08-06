@@ -29,7 +29,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="application/se761.bestgroup.vsmreceiver" />
+                <data android:mimeType="application/com.hugarsthealth.tapin.receiver" />
             </intent-filter>
         </activity>
         <activity android:name="com.hugarsthealth.tapin.receiver.DepartmentsActivity" >
