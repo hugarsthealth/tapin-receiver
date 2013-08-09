@@ -50,7 +50,7 @@ public class LogActivity extends Activity {
 
 		final String savedDepartment = getSharedPreferences("department_cookie", MODE_PRIVATE).getString("department", null);
 		this._deptCookie = new BasicClientCookie2("department", savedDepartment != null ? savedDepartment : "Cardiology");
-		this._deptCookie.setDomain("vsm.herokuapp.com");
+		this._deptCookie.setDomain("tapin.herokuapp.com");
 	}
 
 	@Override
@@ -97,7 +97,7 @@ public class LogActivity extends Activity {
 		edit.putString("department", dept);
 		edit.commit();
 		this._deptCookie = new BasicClientCookie2("department", dept.trim());
-		this._deptCookie.setDomain("vsm.herokuapp.com");
+		this._deptCookie.setDomain("tapin.herokuapp.com");
 		setTitle(dept);
 	}
 
